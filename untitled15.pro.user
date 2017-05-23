@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.1.0, 2017-04-27T14:15:47. -->
+<!-- Written by QtCreator 4.1.0, 2017-05-23T15:49:03. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -534,7 +534,7 @@
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">untitled15</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">untitled152</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/Mohamed/Desktop/c++ project/trail/Pixel Art v.03/untitled15.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/Mohamed/Desktop/pixelArt/Pixel Art v.03/untitled15.pro</value>
     <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">untitled15.pro</value>

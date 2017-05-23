@@ -21,3 +21,6 @@ HEADERS  += mainwindow.h \
     step.h
 
 FORMS    += mainwindow.ui
+
+RESOURCES += \
+    logo.qrc
