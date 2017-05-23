@@ -21,4 +21,3 @@ open .pro file in QtCreator to compile.
 ![alt text](https://raw.githubusercontent.com/ElJAZRY/Sea-Glass-Pixel-Art-/master/LaTeX/mainwindow.jpg)
 
 
-![alt text](https://raw.githubusercontent.com/ElJAZRY/Sea-Glass-Pixel-Art-/master/LaTeX/mainwindow2.jpg)
