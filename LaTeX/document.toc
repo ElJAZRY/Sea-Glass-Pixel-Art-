@@ -1,0 +1,11 @@
+\contentsline {chapter}{\numberline {1}Introduction}{2}
+\contentsline {section}{\numberline {1.1}History of Photomosaics}{4}
+\contentsline {chapter}{\numberline {2}The Methodology}{5}
+\contentsline {chapter}{\numberline {3}Softwear development}{7}
+\contentsline {section}{\numberline {3.1}project objectives}{8}
+\contentsline {section}{\numberline {3.2}The Data containers }{8}
+\contentsline {section}{\numberline {3.3}Step class}{8}
+\contentsline {section}{\numberline {3.4}Draw the photomosaics}{9}
+\contentsline {section}{\numberline {3.5}Graphical User Interface }{9}
+\contentsline {chapter}{\numberline {4}Result }{10}
+\contentsline {chapter}{\numberline {5}Future Improvements}{12}
