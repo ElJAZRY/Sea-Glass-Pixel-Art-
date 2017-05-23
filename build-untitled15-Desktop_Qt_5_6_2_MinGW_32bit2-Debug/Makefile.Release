@@ -485,7 +485,9 @@ release/mainwindow.o: ../Pixel\ Art\ v.03/mainwindow.cpp ../Pixel\ Art\ v.03/mai
 		C:/Qt/5.6/mingw49_32/include/QtGui/QPainter \
 		C:/Qt/5.6/mingw49_32/include/QtGui/qpainter.h \
 		C:/Qt/5.6/mingw49_32/include/QtGui/qtextoption.h \
-		C:/Qt/5.6/mingw49_32/include/QtGui/qpen.h
+		C:/Qt/5.6/mingw49_32/include/QtGui/qpen.h \
+		C:/Qt/5.6/mingw49_32/include/QtGui/QPaintEngine \
+		C:/Qt/5.6/mingw49_32/include/QtGui/qpaintengine.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\mainwindow.o "..\Pixel Art v.03\mainwindow.cpp"
 
 release/step.o: ../Pixel\ Art\ v.03/step.cpp ../Pixel\ Art\ v.03/step.h \

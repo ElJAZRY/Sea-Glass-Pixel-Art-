@@ -36,7 +36,6 @@ public:
     QPushButton *Dir_Img;
     QPushButton *pixel2pic;
     QLabel *label_2;
-    QLabel *label_3;
     QPushButton *pushButton;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
@@ -46,40 +45,37 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QStringLiteral("MainWindow"));
-        MainWindow->resize(699, 408);
+        MainWindow->resize(917, 698);
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
         centralWidget->setStyleSheet(QStringLiteral(""));
         label = new QLabel(centralWidget);
         label->setObjectName(QStringLiteral("label"));
-        label->setGeometry(QRect(40, 20, 371, 331));
+        label->setGeometry(QRect(120, 50, 601, 581));
         label->setStyleSheet(QStringLiteral("border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(102, 14, 255, 255), stop:1 rgba(255, 255, 255, 255));"));
         OPENButton = new QPushButton(centralWidget);
         OPENButton->setObjectName(QStringLiteral("OPENButton"));
-        OPENButton->setGeometry(QRect(510, 20, 121, 41));
+        OPENButton->setGeometry(QRect(760, 100, 121, 41));
         PIXButton = new QPushButton(centralWidget);
         PIXButton->setObjectName(QStringLiteral("PIXButton"));
-        PIXButton->setGeometry(QRect(510, 120, 121, 41));
+        PIXButton->setGeometry(QRect(760, 250, 121, 41));
         horizontalSlider = new QSlider(centralWidget);
         horizontalSlider->setObjectName(QStringLiteral("horizontalSlider"));
-        horizontalSlider->setGeometry(QRect(480, 80, 160, 22));
+        horizontalSlider->setGeometry(QRect(730, 200, 160, 22));
         horizontalSlider->setOrientation(Qt::Horizontal);
         Dir_Img = new QPushButton(centralWidget);
         Dir_Img->setObjectName(QStringLiteral("Dir_Img"));
-        Dir_Img->setGeometry(QRect(510, 180, 121, 41));
+        Dir_Img->setGeometry(QRect(760, 330, 121, 41));
         pixel2pic = new QPushButton(centralWidget);
         pixel2pic->setObjectName(QStringLiteral("pixel2pic"));
-        pixel2pic->setGeometry(QRect(510, 240, 121, 41));
+        pixel2pic->setGeometry(QRect(760, 430, 121, 41));
         label_2 = new QLabel(centralWidget);
         label_2->setObjectName(QStringLiteral("label_2"));
-        label_2->setGeometry(QRect(650, 90, 31, 21));
+        label_2->setGeometry(QRect(880, 170, 31, 21));
         label_2->setStyleSheet(QStringLiteral("border-color: rgb(0, 0, 255);"));
-        label_3 = new QLabel(centralWidget);
-        label_3->setObjectName(QStringLiteral("label_3"));
-        label_3->setGeometry(QRect(430, 280, 81, 61));
         pushButton = new QPushButton(centralWidget);
         pushButton->setObjectName(QStringLiteral("pushButton"));
-        pushButton->setGeometry(QRect(510, 290, 121, 41));
+        pushButton->setGeometry(QRect(760, 540, 121, 41));
         MainWindow->setCentralWidget(centralWidget);
         label->raise();
         OPENButton->raise();
@@ -88,11 +84,10 @@ public:
         pixel2pic->raise();
         horizontalSlider->raise();
         label_2->raise();
-        label_3->raise();
         pushButton->raise();
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QStringLiteral("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 699, 21));
+        menuBar->setGeometry(QRect(0, 0, 917, 21));
         MainWindow->setMenuBar(menuBar);
         mainToolBar = new QToolBar(MainWindow);
         mainToolBar->setObjectName(QStringLiteral("mainToolBar"));
@@ -115,7 +110,6 @@ public:
         Dir_Img->setText(QApplication::translate("MainWindow", "Add Image From Dir", 0));
         pixel2pic->setText(QApplication::translate("MainWindow", "pixel to pic", 0));
         label_2->setText(QString());
-        label_3->setText(QApplication::translate("MainWindow", "TextLabel", 0));
         pushButton->setText(QApplication::translate("MainWindow", "Save", 0));
     } // retranslateUi
 
