@@ -1,4 +1,4 @@
-# photomosaic  written in C++ using Qt
+# Photomosaic  written in C++ using Qt
 
 
 
